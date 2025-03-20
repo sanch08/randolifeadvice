@@ -33,13 +33,13 @@ class RandomLifeAdviceGenerator
         do
         {
             int index = random.Next(advices.Length);
-            Console.WriteLine("\n📌 Съвет: " + advices[index]);
+            Console.WriteLine("\n Съвет: " + advices[index]);
 
             Console.Write("\nНатиснете 'Enter' за нов съвет или въведете 'exit' за изход: ");
             userInput = Console.ReadLine()?.Trim().ToLower();
 
         } while (userInput != "exit");
 
-        Console.WriteLine("Благодаря, че използвахте програмата! 😊");
+        Console.WriteLine("Благодаря, че използвахте програмата! ");
     }
 }
